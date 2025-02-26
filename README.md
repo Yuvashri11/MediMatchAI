@@ -33,9 +33,6 @@ We have built *two independent AI models*, each offering a unique approach to ex
 ![Screenshot 2025-02-26 230450](https://github.com/user-attachments/assets/9d391440-495d-49db-a04d-1e46202b1d33)
 
 
-![Screenshot 2025-02-26 193559](https://github.com/user-attachments/assets/8731e240-d0d1-4994-b78f-746f61225b67)
-
-
 - *What it does:*  
   - Uses *Convolutional Neural Networks (CNNs)* to analyze handwriting patterns.  
   - Employs *Recurrent Neural Networks (RNNs)* to understand the sequence of characters.  
