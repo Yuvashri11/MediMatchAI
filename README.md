@@ -45,6 +45,9 @@ We have built *two independent AI models*, each offering a unique approach to ex
 ---
 
 ### *2. TrOCR(Transformer-based OCR) + LayoutLM + BioBERT*  
+
+![Screenshot 2025-02-26 230143](https://github.com/user-attachments/assets/c3d1495f-4519-43e0-aa9d-1dba2d38751f)
+
 - *What it does:*  
   - Uses a *Vision Transformer (ViT)* to process images and extract text features.  
   - Generates text predictions with a *GPT-like decoder*, fine-tuned for handwritten text.  
