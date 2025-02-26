@@ -28,7 +28,7 @@ We have built *two independent AI models*, each offering a unique approach to ex
 
 ---
 
-### *1. CRNN +CTC (Convolutional Recurrent Neural Network)*  
+### *1. CRNN (Convolutional Recurrent Neural Network) + CTC*  
 - *What it does:*  
   - Uses *Convolutional Neural Networks (CNNs)* to analyze handwriting patterns.  
   - Employs *Recurrent Neural Networks (RNNs)* to understand the sequence of characters.  
@@ -40,7 +40,7 @@ We have built *two independent AI models*, each offering a unique approach to ex
 
 ---
 
-### *2. TrOCR + LayoutLM + BioBERT(Transformer-based OCR)*  
+### *2. TrOCR(Transformer-based OCR) + LayoutLM + BioBERT*  
 - *What it does:*  
   - Uses a *Vision Transformer (ViT)* to process images and extract text features.  
   - Generates text predictions with a *GPT-like decoder*, fine-tuned for handwritten text.  
