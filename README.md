@@ -1,5 +1,5 @@
 # MediMatchAI
-#Problem Statement
+# Problem Statement
 
 In medical applications, users manually enter tablet names to place orders. This process is error-prone and time-consuming, especially when dealing with handwritten prescriptions. Misinterpretation of medicine names or dosages can lead to severe consequences, such as incorrect orders or health risks. The goal is to automate this process by allowing users to upload an image of a handwritten prescription, which will then be automatically converted to text using a highly precise handwriting recognition system.
 
@@ -21,9 +21,30 @@ Dataset consists of handwritten text samples used for OCR model training.
 
 **1. Feature Extraction (CNN)**
 
-Convolutional Layers: Extracts spatial features from images.
+The model utilizes a **multi-layer CNN** to extract spatial features from the input image before passing it to the recurrent layers. The architecture is as follows:
 
-MaxPooling Layers: Reduces dimensions while preserving key information.
+
+2 X Conv2D → Batch Normalization → ReLU → MaxPooling2D
+
+Dropout
+
+1 X Conv2D → Batch Normalization → ReLU → MaxPooling2D
+
+Dropout
+
+1 X Conv2D → Batch Normalization → ReLU → MaxPooling2D
+
+Dropout
+
+1 X Conv2D → Batch Normalization → ReLU
+
+Flatten
+
+Dense
+
+Dropout
+
+
 
 **2. Sequential Modeling (RNN - LSTM)**
 
