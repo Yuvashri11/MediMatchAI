@@ -30,7 +30,8 @@ We have built *two independent AI models*, each offering a unique approach to ex
 
 ### *1. CRNN (Convolutional Recurrent Neural Network) + CTC*  
 
-![Uploading Screenshot 2025-02-26 193559.png…]()
+![Screenshot 2025-02-26 193559](https://github.com/user-attachments/assets/8731e240-d0d1-4994-b78f-746f61225b67)
+
 
 - *What it does:*  
   - Uses *Convolutional Neural Networks (CNNs)* to analyze handwriting patterns.  
