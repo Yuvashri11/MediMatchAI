@@ -100,13 +100,16 @@ jupyter notebook
 
 
 4. *Run the notebooks in order:*  
-- Open 01_preprocessing.ipynb → Handles *image preprocessing* & *text detection*  
+- Open trained.ipynb → Handles *image preprocessing* & *text detection*  
 - Open 02_ocr_extraction.ipynb → Runs *OCR & post-processing*  
 
 ---
 
 ##  *Future Implementations*  
 - We plan to replicate the full pipeline shown in the architecture:
+
+  ![end-to-end-approach](https://github.com/user-attachments/assets/6bf398fb-74ab-4d6d-b843-e3e17dff277a)
+
 - Improve text detection using YOLOv4 + Faster R-CNN
 - Enhance OCR models with ViT + CTC for robust recognition
 - Implement Layout Analysis using Graph Neural Networks & Spatial CNNs
